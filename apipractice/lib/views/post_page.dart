@@ -46,14 +46,7 @@ class _PostPageState extends State<PostPage> {
               padding: const EdgeInsets.all(16),
               child: Row(
                 children: [
-                  Container(
-                    height: 50,
-                    width: 50,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12),
-                      color: Colors.grey[300],
-                    ),
-                  ),
+                  
                   const SizedBox(width: 16),
                   Expanded(
                     child: Column(
